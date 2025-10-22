@@ -1,2 +1,2 @@
 # MINESWEEPER-GAME
-#Live Demo minesweeper-gam.netlify.app
+#Live Demo https://minesweeper-gam.netlify.app/
