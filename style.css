@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f3f4f6;
+}
+
+h1 {
+    color: #333;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(10, 30px);
+    grid-gap: 2px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.cell {
+    width: 30px;
+    height: 30px;
+    background-color: #9ca3af;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    color: #111827;
+    cursor: pointer;
+}
+
+.cell.revealed {
+    background-color: #d1d5db;
+    cursor: default;
+}
+
+.cell.mine {
+    background-color: #ef4444;
+    color: white;
+}
